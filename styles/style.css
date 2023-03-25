@@ -4,14 +4,34 @@
 
 .logo {
     width: 150px;
+    height: 120px;
 }
 
 
+header {
+    background-color: black;
+    display: grid;
+    grid-template-columns: 150px auto;
+}
 
 
+nav a {
+    text-align: center;
+    margin-top: 50px;
+}
 
+nav {
+    display: flex;
+    justify-content: space-around;
+}
 
+/* body area css */
+
+#title_area {
+    text-align: center;
+}
 
 body {
     background-color: brown;
+    margin: 0 auto;
 }
